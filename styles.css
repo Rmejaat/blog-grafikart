@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav {
+  display: flex;
+  width: 605px;
+  justify-content: space-between;
+}
+
+.nav > a {
+  font-size: 17px;
+  line-height: 23px;
+  letter-spacing: 0;
+  text-decoration: none;
+  color: #9f9f9f;
+  font-weight: 500;
+}
+
+.header-nav {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px;
+  width: 1920px;
+  height: 91px;
+  z-index: 3;
+}
+
+.network {
+  display: flex;
+  justify-content: space-between;
+  width: 65px;
+}
+
+.header-img {
+  position: relative;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 0;
+  width: 1921px;
+  height: 1250px;
+}
+
+.article {
+  width: 1040px;
+  height: 1001px;
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.post-img {
+  width: 308px;
+  height: 203px;
+}
+
+.post-date {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 23px;
+  letter-spacing: 0;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0 0;
+}
+
+.post-title {
+  height: 41px;
+  font-family: "Cardo", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 41px;
+  letter-spacing: 0px;
+  color: rgba(0, 0, 0, 1);
+  margin: 0;
+  padding-top: 7px;
+}
+
+.post-description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0;
+  color: rgba(0, 0, 0, 0.87);
+  height: 120px;
+  width: 606px;
+  padding-top: 16px;
+  margin-top: 0;
+}
+
+.sidebar {
+  background: #fbfbfb;
+  height: 1212px;
+  display: flex;
+  flex-direction: column;
+  width: 378px;
+}
+
+.post {
+  display: flex;
+  width: 1040px;
+  height: 208px;
+  padding-top: 126px;
+}
+
+.post-p {
+  display: flex;
+  flex-direction: column;
+  height: 203px;
+  overflow: hidden;
+  padding-left: 26px;
+}
+
+.categories {
+  width: 369px;
+  height: 223px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 57px;
+}
+
+.categories > h2 {
+  width: 252px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 0;
+  color: #000000;
+}
+
+.categories-p {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 23px;
+  letter-spacing: 0px;
+  color: #9f9f9f;
+}
+
+hr {
+  background: #c4c4c4;
+  width: 248px;
+  margin-top: 43px;
+  margin-bottom: 0;
+  flex: none;
+}
+
+.newpost {
+  display: flex;
+  width: 1040px;
+  height: 208px;
+  padding-top: 43px;
+}
