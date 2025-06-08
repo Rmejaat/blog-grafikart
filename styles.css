@@ -2,9 +2,14 @@
   box-sizing: border-box;
 }
 
-body {
+body,
+html {
   margin: 0px;
   font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 23px;
+  letter-spacing: 0px;
 }
 
 .nav {
@@ -53,7 +58,7 @@ main {
 }
 
 .article {
-  width: 1040px;
+  width: calc(100% - 378px);
   height: 1001px;
   flex: 1 1;
   display: flex;
@@ -78,7 +83,7 @@ main {
 
 .post-title {
   height: 41px;
-  font-family: "Cardo", sans-serif;
+  font-family: "Cardo", serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 41px;
@@ -131,7 +136,7 @@ main {
   padding-left: 57px;
 }
 
-.categories > h2 {
+.categories h4 {
   width: 252px;
   font-weight: 700;
   font-size: 30px;
@@ -140,20 +145,16 @@ main {
   color: #000000;
 }
 
-.categories-p {
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 23px;
-  letter-spacing: 0px;
+.categories ul {
   color: #9f9f9f;
 }
 
 hr {
   background: #c4c4c4;
   width: 248px;
-  margin-top: 43px;
-  margin-bottom: 0;
-  flex: none;
+  margin-top: 40px auto;
+  border: none;
+  height: 1px;
 }
 
 .newpost {
